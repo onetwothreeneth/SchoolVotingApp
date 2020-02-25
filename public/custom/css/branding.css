@@ -1,0 +1,63 @@
+
+.aa-color{
+	color: #000065 !important;
+}
+.aa-color-sub{
+	color: #032b5d !important;
+}
+.aa-bg{
+	background-color: #000065 !important;
+	border-color: #000065 !important;
+}
+.aa-bg-sub{
+	background-color: #032b5d !important;
+}
+
+body .aside-toolbar, body .top-toolbar.navbar-mobile.navbar-tablet,body .top-toolbar.navbar-desktop{
+	background-color: #635ebe !important;
+}
+@media (max-width: 992px){ 
+	body .top-toolbar.navbar-desktop .navbar-nav .nav-item>a, 
+	body .top-toolbar.navbar-desktop .navbar-nav .nav-item>a>i {
+    	color: #ffffff !important;
+	}
+}
+body .top-toolbar.navbar-desktop .navbar-nav .nav-item>a, body .top-toolbar.navbar-desktop .navbar-nav .nav-item>a i{
+	color: #ffff !important;
+}
+body .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu>li.active>a, body .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu>li.active>a:focus, body .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu>li.active>a:hover{
+	border-left: #000065 !important;
+}
+body .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu li a:hover, body .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu li a:hover i{
+	color:#000065 !important;
+}
+body .sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu>.nav-dropdown.active>.nav-sub {
+    background: #f3f1f1 !important;
+    background-size: 3px 100% !important;
+    color:#728db4;
+}
+.main-menu li.active{
+	border-left: 4px solid #665fc6 !important;
+	background-color: #655ccd0a;
+}
+li.active a,li.active a span,li.active a i{
+	color:#635ebe !important;
+	font-weight: bolder;
+}
+li.active ul li a span{
+	color:#728db4 !important;
+}
+.sidebar.sidebar-left .sidebar-content .main-menu .nav.metismenu .nav-dropdown .nav-sub li:last-child{
+	padding: 5px 0px 5px 00px !important;
+}
+.pagination .page-item.active .page-link{ 
+    color: #fff !important;
+    background-color: #000065 !important;
+    border-color: #000065 !important;
+}
+.tablex{
+	width: 100% !important;
+	float: left;
+	xoverflow-x: scroll !important;
+	height: 100vw;
+}
